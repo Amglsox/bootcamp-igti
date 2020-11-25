@@ -26,7 +26,7 @@ def write_jdbc(df):
     .option("url", "jdbc:postgresql://localhost:5432/dm_enem") \
     .option("dbtable", "public.tb_enem") \
     .option("user", "admin") \
-    .option("password", "Amglsox123@") \
+    .option("password", "afmin123") \
     .mode("overwrite")\
     .save()
 
